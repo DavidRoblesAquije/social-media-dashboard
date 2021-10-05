@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'i-bold';
+    src: url('../fonts/Inter-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'i-medium';
+    src: url('../fonts/Inter-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'i-regular';
+    src: url('../fonts/Inter-Regular.ttf') format('truetype');
+}

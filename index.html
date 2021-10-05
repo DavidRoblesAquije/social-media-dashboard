@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles/style.css">
+
+  <title>Social Media dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="row">
+
+      <main id="mainInfo">
+        <h3> Social Media Dashboard</h3>
+        <div class="follow">
+          <p>Total Followers:</p><span class="number" data-target="23004">23004</span>
+        </div>
+        <div class="toggleButton">
+          <p>Dark Mode</p>
+          <div id="toggle">
+            <i class="indicator"></i>
+          </div>
+        </div>
+      </main>
+
+
+      <section id="socialMedias" aria-label="social media">
+
+        <article class="socialMedia facebook">
+          <div class="info">
+            <img src="images/icon-facebook.svg" alt="">
+            <p>@nathanf</p>
+          </div>
+          <span class="number followers" data-target="1987">1987</span>
+          <p class="text2">Followers</p>
+          <div class="days">
+            <img src="images/icon-up.svg" alt="">
+            <p>12 Today</p>
+          </div>
+        </article>
+
+        <article class="socialMedia twitter">
+          <div class="info">
+            <img src="images/icon-twitter.svg" alt="">
+            <p>@nathanf</p>
+          </div>
+          <span class="number followers" data-target="1044">1044</span>
+          <p class="text2">Followers</p>
+          <div class="days">
+            <img src="images/icon-up.svg" alt="">
+            <p>99 Today</p>
+          </div>
+        </article>
+
+        <article class="socialMedia instagram">
+          <div class="info">
+            <img src="images/icon-instagram.svg" alt="">
+            <p>@realnathanf</p>
+          </div>
+          <span class="followers" data-target="11k">11k</span>
+          <p class="text2">Followers</p>
+          <div class="days">
+            <img src="images/icon-up.svg" alt="">
+            <p>1099 Today</p>
+          </div>
+        </article>
+
+        <article class="socialMedia youtube">
+          <div class="info">
+            <img src="images/icon-youtube.svg" alt="">
+            <p>Nathan F.</p>
+          </div>
+          <span class="number followers" data-target="8239">8239</span>
+          <p class="text2">Subscribers</p>
+          <div class="days red">
+            <img src="images/icon-down.svg" alt="">
+            <p>144 Today</p>
+          </div>
+        </article>
+
+      </section>
+
+      <section id="overviews">
+
+        <h3>Overview - Today</h3>
+
+        <div class="contentoverviews">
+
+          <article class="overview facebook">
+            <div>
+              <p>Page Views</p>
+              <img src="images/icon-facebook.svg" alt="arrow">
+            </div>
+            <div>
+              <span class="number" data-target="87">87</span>
+              <div class="days">
+                <img src="images/icon-up.svg" alt="arrow">
+                <p>3%</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="overview facebook">
+            <div>
+              <p>Likes</p>
+              <img src="images/icon-facebook.svg" alt="">
+            </div>
+            <div>
+              <span class="number" data-target="52">52</span>
+              <div class="days red">
+                <img src="images/icon-down.svg" alt="">
+                <p>2%</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="overview instagram">
+            <div>
+              <p>Likes</p>
+              <img src="images/icon-instagram.svg" alt="arrow">
+            </div>
+            <div>
+              <span class="number" data-target="5462">5462</span>
+              <div class="days">
+                <img src="images/icon-up.svg" alt="arrow">
+                <p>2257%</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="overview instagram">
+            <div>
+              <p>Profile Views</p>
+              <img src="images/icon-instagram.svg" alt="arrow">
+            </div>
+            <div>
+              <span>52k</span>
+              <div class="days">
+                <img src="images/icon-up.svg" alt="arrow">
+                <p>1375%</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="overview twitter">
+            <div>
+              <p>Retweets</p>
+              <img src="images/icon-twitter.svg" alt="arrow">
+            </div>
+            <div>
+              <span class="number" data-target="117">117</span>
+              <div class="days">
+                <img src="images/icon-up.svg" alt="arrow">
+                <p>303%</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="overview twitter">
+            <div>
+              <p>Likes</p>
+              <img src="images/icon-twitter.svg" alt="arrow">
+            </div>
+            <div>
+              <span class="number" data-target="507">507</span>
+              <div class="days">
+                <img src="images/icon-up.svg" alt="arrow">
+                <p>553%</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="overview youtube">
+            <div>
+              <p>Likes</p>
+              <img src="images/icon-youtube.svg" alt="arrow">
+            </div>
+            <div>
+              <span class="number" data-target="107">107</span>
+              <div class="days red">
+                <img src="images/icon-down.svg" alt="arrow">
+                <p>19%</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="overview youtube">
+            <div>
+              <p>Total Views</p>
+              <img src="images/icon-youtube.svg" alt="arrow">
+            </div>
+            <div>
+              <span class="number" data-target="1407">1407</span>
+              <div class="days red">
+                <img src="images/icon-down.svg" alt="arrow">
+                <p>12%</p>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </section>
+
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/DavidRoblesAquije" target="_blank">David Robles Aquije</a>.
+      </div>
+    </div>
+  </div>
+
+  <script src="dark.js"></script>
+
+  <script>
+    const counters = document.querySelectorAll('.number');
+
+    counters.forEach((counter) => {
+      counter.innerText = '0';
+
+      const updateCounter = () => {
+        const target = +counter.getAttribute('data-target');
+        const c = +counter.innerText;
+
+        const increment = target / 200;
+
+        if (c < target) {
+          counter.innerText = `${Math.ceil(c + increment)}`;
+          setTimeout(updateCounter, 1);
+        } else {
+          counter.innerText = target;
+        }
+      };
+      updateCounter();
+    });
+
+  </script>
+</body>
+
+</html>
